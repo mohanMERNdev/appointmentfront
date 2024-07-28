@@ -1,0 +1,14 @@
+.appointments-background{
+    background-image: url('');
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    color: black;
+    text-shadow: 1px 1px 2px #000;
+    margin-top: 35px;
+  }
+  

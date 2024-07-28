@@ -1,12 +1,10 @@
 import React from 'react';
+import './Home.css';
 
-const Home = () => {
-  return (
-    <div>
-      <h2>Home Page</h2>
-      <p>Welcome to the home page!</p>
-    </div>
-  );
-};
+const Home = () => (
+  <div className="main-content">
+    <h1>AppointmentApp</h1>
+  </div>
+);
 
 export default Home;

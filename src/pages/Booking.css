@@ -1,0 +1,72 @@
+/* src/pages/Booking.css */
+.booking-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background: url('') no-repeat center center fixed;
+    background-size: cover;
+    flex: 1;
+    box-sizing: border-box;
+    margin-top: 15px;
+  }
+  
+  .calendar-container {
+    background: white; /* Background color for the calendar */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow for better visibility */
+    padding: 10px; /* Padding around the calendar */
+    width: 250px; /* Adjust width to minimize size */
+    margin: 20px 0; /* Margin for spacing */
+  }
+  
+  /* React Calendar Styles */
+  .react-calendar {
+    font-family: Arial, sans-serif;
+  }
+  
+  .react-calendar__tile {
+    background: #f0f0f0; /* Light background for dates */
+    color: #000; /* Black text color for dates */
+  }
+  
+  .react-calendar__tile--active {
+    background: #e0e0e0; /* Darker background for selected date */
+  }
+  
+  .react-calendar__navigation button {
+    color: #000; /* Black color for navigation buttons */
+  }
+  
+  .time-selection {
+    margin: 20px 0;
+    text-align: center; /* Center the label and select box */
+  }
+  
+  .time-selection label {
+    margin-right: 10px;
+  }
+  
+  .time-selection select {
+    padding: 5px;
+  }
+  
+  .book-button {
+    background-color: #4CAF50; /* Green background */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px 0;
+    cursor: pointer;
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth transition */
+  }
+  
+  .book-button:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
+  

@@ -1,10 +1,10 @@
 import React from 'react';
+import "./MyAppointments.css"
 
 const MyAppointments = () => {
   return (
-    <div>
-      <h2>My Appointments Page</h2>
-      <p>View your appointments here.</p>
+    <div className = "appointments-background">
+      <h2>My Appointments</h2>
     </div>
   );
 };
