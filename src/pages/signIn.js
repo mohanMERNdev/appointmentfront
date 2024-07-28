@@ -1,17 +1,13 @@
 import React, { useState } from 'react';
-import axios from 'axios';
-import { useHistory } from 'react-router-dom';
 
 const SignIn = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
-  const history = useHistory();
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
-    // Your signin logic here
-    // On success:
-    history.push('/');
+    // Placeholder logic for sign-in
+    console.log('SignIn:', { email, password });
   };
 
   return (

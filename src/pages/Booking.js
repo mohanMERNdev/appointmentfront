@@ -1,27 +1,10 @@
-import React, { useState } from 'react';
-import axios from 'axios';
+import React from 'react';
 
 const Booking = () => {
-  const [appointment, setAppointment] = useState('');
-
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    // Your booking logic here
-  };
-
   return (
     <div>
-      <h2>Book an Appointment</h2>
-      <form onSubmit={handleSubmit}>
-        <input
-          type="text"
-          value={appointment}
-          onChange={(e) => setAppointment(e.target.value)}
-          placeholder="Appointment Details"
-          required
-        />
-        <button type="submit">Book</button>
-      </form>
+      <h2>Booking Page</h2>
+      <p>Book your appointments here.</p>
     </div>
   );
 };

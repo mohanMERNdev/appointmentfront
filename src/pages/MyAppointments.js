@@ -1,25 +1,10 @@
-import React, { useEffect, useState } from 'react';
-import axios from 'axios';
+import React from 'react';
 
 const MyAppointments = () => {
-  const [appointments, setAppointments] = useState([]);
-
-  useEffect(() => {
-    const fetchAppointments = async () => {
-      // Fetch appointments logic here
-    };
-
-    fetchAppointments();
-  }, []);
-
   return (
     <div>
-      <h2>My Appointments</h2>
-      <ul>
-        {appointments.map((appointment, index) => (
-          <li key={index}>{appointment}</li>
-        ))}
-      </ul>
+      <h2>My Appointments Page</h2>
+      <p>View your appointments here.</p>
     </div>
   );
 };
